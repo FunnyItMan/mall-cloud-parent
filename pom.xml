@@ -3,6 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <!--项目模块-->
+    <modules>
+        <module>mall-cloud-api</module>
+        <module>mall-cloud-common</module>
+        <module>mall-cloud-basics</module>
+        <module>mall-cloud-service</module>
+    </modules>
+
     <!--父项目依赖-->
     <parent>
         <groupId>org.springframework.boot</groupId>
