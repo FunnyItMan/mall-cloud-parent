@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mall-cloud-service</artifactId>
+        <groupId>com.mall.cloud</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>mall-cloud-service-member</artifactId>
+    <packaging>jar</packaging>
+    <description>核心服务-会员模块</description>
+
+    <!--模块依赖-->
+    <dependencies>
+        <!--会员entity依赖-->
+        <dependency>
+            <groupId>com.mall.cloud</groupId>
+            <artifactId>mall-cloud-entity-member</artifactId>
+        </dependency>
+        <!--数据库模块-->
+        <dependency>
+            <groupId>com.mall.cloud</groupId>
+            <artifactId>mall-cloud-common-database</artifactId>
+        </dependency>
+        <!--web模块-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+</project>

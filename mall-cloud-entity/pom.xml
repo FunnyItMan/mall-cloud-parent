@@ -8,11 +8,11 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>mall-cloud-api</artifactId>
+    <artifactId>mall-cloud-entity</artifactId>
     <packaging>pom</packaging>
-    <description>api模块父pom</description>
-    <modules>
-        <module>mall-cloud-api-member</module>
-    </modules>
+    <description>实体类服务父pom(VO,DTO对象)</description>
 
+    <modules>
+        <module>mall-cloud-entity-member</module>
+    </modules>
 </project>

@@ -4,14 +4,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!--项目模块-->
-    <modules>
-        <module>mall-cloud-api</module>
-        <module>mall-cloud-common</module>
-        <module>mall-cloud-basics</module>
-        <module>mall-cloud-service</module>
-    </modules>
-
     <!--父项目依赖-->
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,6 +15,15 @@
     <version>1.0.0</version>
     <description>父项目依赖管理pom</description>
     <packaging>pom</packaging>
+
+    <!--项目模块-->
+    <modules>
+        <module>mall-cloud-api</module>
+        <module>mall-cloud-basics</module>
+        <module>mall-cloud-common</module>
+        <module>mall-cloud-service</module>
+        <module>mall-cloud-entity</module>
+    </modules>
 
 
     <!--版本号-->
@@ -40,6 +41,61 @@
                 <version>${spring.cloud-version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!--======================项目模块依赖==========================-->
+            <!--api-member模块-->
+            <dependency>
+                <groupId>com.mall.cloud</groupId>
+                <artifactId>mall-cloud-api-member</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!--common-basic模块-->
+            <dependency>
+                <groupId>com.mall.cloud</groupId>
+                <artifactId>mall-cloud-common-basic</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!--common-database模块-->
+            <dependency>
+                <groupId>com.mall.cloud</groupId>
+                <artifactId>mall-cloud-common-database</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!--entity-member会员模块-->
+            <dependency>
+                <groupId>com.mall.cloud</groupId>
+                <artifactId>mall-cloud-entity-member</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!--=============其他依赖==============-->
+            <!--mp依赖-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.5.1</version>
+            </dependency>
+            <!--数据库驱动-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.27</version>
+            </dependency>
+            <!--lombok javabean依赖-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.22</version>
+            </dependency>
+            <!--apache lang3工具类-->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.12.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

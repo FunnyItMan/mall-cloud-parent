@@ -11,8 +11,9 @@
     <artifactId>mall-cloud-common</artifactId>
     <packaging>pom</packaging>
     <description>公共模块父pom</description>
+
     <modules>
         <module>mall-cloud-common-basic</module>
+        <module>mall-cloud-common-database</module>
     </modules>
-
 </project>

@@ -12,4 +12,8 @@
     <packaging>pom</packaging>
     <description>核心服务模块父pom</description>
 
+    <modules>
+        <module>mall-cloud-service-member</module>
+        <module>mall-cloud-service-system</module>
+    </modules>
 </project>
