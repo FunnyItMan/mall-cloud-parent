@@ -11,5 +11,8 @@
     <artifactId>mall-cloud-basics</artifactId>
     <packaging>pom</packaging>
     <description>基础设施模块父pom</description>
+    <modules>
+        <module>mall-cloud-basics-eureka</module>
+    </modules>
 
 </project>

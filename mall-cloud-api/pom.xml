@@ -11,8 +11,17 @@
     <artifactId>mall-cloud-api</artifactId>
     <packaging>pom</packaging>
     <description>api模块父pom</description>
+
     <modules>
         <module>mall-cloud-api-member</module>
     </modules>
 
+    <!--api模块依赖-->
+    <dependencies>
+        <!--openFeign远程调用-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+    </dependencies>
 </project>

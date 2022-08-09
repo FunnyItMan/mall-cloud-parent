@@ -43,7 +43,7 @@
                 <scope>import</scope>
             </dependency>
 
-            <!--======================项目模块依赖==========================-->
+            <!--======================api模块依赖=========================-->
             <!--api-member模块-->
             <dependency>
                 <groupId>com.mall.cloud</groupId>
@@ -51,13 +51,13 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <!--======================公共模块依赖=========================-->
             <!--common-basic模块-->
             <dependency>
                 <groupId>com.mall.cloud</groupId>
                 <artifactId>mall-cloud-common-basic</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <!--common-database模块-->
             <dependency>
                 <groupId>com.mall.cloud</groupId>
@@ -65,14 +65,21 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <!--======================entity模块依赖========================-->
             <!--entity-member会员模块-->
             <dependency>
                 <groupId>com.mall.cloud</groupId>
                 <artifactId>mall-cloud-entity-member</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!--entity-system会员模块-->
+            <dependency>
+                <groupId>com.mall.cloud</groupId>
+                <artifactId>mall-cloud-entity-system</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
-            <!--=============其他依赖==============-->
+            <!--======================其他模块依赖===========================-->
             <!--mp依赖-->
             <dependency>
                 <groupId>com.baomidou</groupId>

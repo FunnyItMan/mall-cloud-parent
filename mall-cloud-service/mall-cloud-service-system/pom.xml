@@ -13,6 +13,11 @@
     <description>核心服务-系统服务</description>
 
     <dependencies>
+        <!--公共模块-->
+        <dependency>
+            <groupId>com.mall.cloud</groupId>
+            <artifactId>mall-cloud-common-basic</artifactId>
+        </dependency>
         <!--数据库模块-->
         <dependency>
             <groupId>com.mall.cloud</groupId>
@@ -22,11 +27,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!--lombok简化javabean-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 </project>

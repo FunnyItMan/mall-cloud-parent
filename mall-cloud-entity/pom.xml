@@ -14,5 +14,15 @@
 
     <modules>
         <module>mall-cloud-entity-member</module>
+        <module>mall-cloud-entity-system</module>
     </modules>
+
+    <!--模块依赖-->
+    <dependencies>
+        <!--lombok简化javabean-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 </project>

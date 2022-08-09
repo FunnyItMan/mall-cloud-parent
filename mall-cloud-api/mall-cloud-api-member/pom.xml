@@ -11,4 +11,12 @@
     <artifactId>mall-cloud-api-member</artifactId>
     <packaging>jar</packaging>
     <description>api服务-会员模块</description>
+
+    <dependencies>
+        <!--会员entity依赖-->
+        <dependency>
+            <groupId>com.mall.cloud</groupId>
+            <artifactId>mall-cloud-entity-member</artifactId>
+        </dependency>
+    </dependencies>
 </project>

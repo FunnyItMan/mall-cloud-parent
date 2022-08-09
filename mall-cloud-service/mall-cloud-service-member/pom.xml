@@ -14,15 +14,20 @@
 
     <!--模块依赖-->
     <dependencies>
-        <!--会员entity依赖-->
+        <!--公共模块-->
         <dependency>
             <groupId>com.mall.cloud</groupId>
-            <artifactId>mall-cloud-entity-member</artifactId>
+            <artifactId>mall-cloud-common-basic</artifactId>
         </dependency>
         <!--数据库模块-->
         <dependency>
             <groupId>com.mall.cloud</groupId>
             <artifactId>mall-cloud-common-database</artifactId>
+        </dependency>
+        <!--会员entity依赖-->
+        <dependency>
+            <groupId>com.mall.cloud</groupId>
+            <artifactId>mall-cloud-entity-member</artifactId>
         </dependency>
         <!--web模块-->
         <dependency>

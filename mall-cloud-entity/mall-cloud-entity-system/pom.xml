@@ -8,7 +8,6 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>mall-cloud-entity-member</artifactId>
-    <packaging>jar</packaging>
-    <description>实体类服务-会员模块</description>
+    <artifactId>mall-cloud-entity-system</artifactId>
+    <description>system 实体类模块</description>
 </project>

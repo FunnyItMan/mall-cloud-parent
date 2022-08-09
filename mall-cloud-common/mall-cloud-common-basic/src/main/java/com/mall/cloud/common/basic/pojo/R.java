@@ -1,4 +1,4 @@
-package com.mall.cloud.common.basic.response;
+package com.mall.cloud.common.basic.pojo;
 
 import lombok.Data;
 
