@@ -10,7 +10,7 @@ import java.util.List;
  * @param <T>
  */
 @Data
-public class PR<T> {
+public class PageR<T> {
     private Integer     total;  //总数量
     private List<T>     list;   //数据
 }

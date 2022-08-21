@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
     <description>基础设施模块父pom</description>
     <modules>
-        <module>mall-cloud-basics-eureka</module>
+        <module>mall-cloud-basics-gateway</module>
     </modules>
 
 </project>
