@@ -1,22 +1,22 @@
-server:
-  port: 8100
-
-spring:
-  application:
-    name: mall-system
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.43.34.193:3306/mall-system?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
-    username: root
-    password: root123
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 101.43.34.193:8848
-mybatis-plus:
-  configuration:
-    map-underscore-to-camel-case: true
-  global-config:
-    db-config:
-      id-type: auto
-    banner: false
+#server:
+#  port: 8100  #端口号
+#spring:
+#  application:
+#    name: mall-system
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://101.43.34.193:3306/mall-system?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+#    username: root
+#    password: root123
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 101.43.34.193:8848 #nacos注册中心，防火墙需开放8848 9848 9849 grpc端口
+##mybatis plus相关配置
+#mybatis-plus:
+#  configuration:
+#    map-underscore-to-camel-case: true  #忽略大小写
+#  global-config:
+#    db-config:
+#      id-type: auto #id自增
+#    banner: false #关闭banner
