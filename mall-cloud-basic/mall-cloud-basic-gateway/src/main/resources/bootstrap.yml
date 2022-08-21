@@ -1,3 +1,11 @@
 spring:
   application:
     name: mall-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://101.43.34.193:8848
+      config:
+        server-addr: 101.43.34.193:8848
+        group: dev
+        file-extension: yml

@@ -9,7 +9,10 @@ spring:
     url: jdbc:mysql://101.43.34.193:3306/mall-system?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
     username: root
     password: root123
-
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.43.34.193:8848
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
