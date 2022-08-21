@@ -19,7 +19,7 @@
     <!--项目模块-->
     <modules>
         <module>mall-cloud-api</module>
-        <module>mall-cloud-basics</module>
+        <module>mall-cloud-basic</module>
         <module>mall-cloud-common</module>
         <module>mall-cloud-service</module>
         <module>mall-cloud-entity</module>
