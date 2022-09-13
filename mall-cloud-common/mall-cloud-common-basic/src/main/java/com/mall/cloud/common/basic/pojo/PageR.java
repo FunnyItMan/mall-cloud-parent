@@ -1,6 +1,8 @@
 package com.mall.cloud.common.basic.pojo;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
@@ -10,7 +12,9 @@ import java.util.List;
  * @param <T>
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class PageR<T> {
-    private Integer     total;  //总数量
+    private Long     total;  //总数量
     private List<T>     list;   //数据
 }

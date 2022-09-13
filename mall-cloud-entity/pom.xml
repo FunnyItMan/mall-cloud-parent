@@ -19,10 +19,10 @@
 
     <!--模块依赖-->
     <dependencies>
-        <!--lombok简化javabean-->
+        <!--公共模块-->
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <groupId>com.mall.cloud</groupId>
+            <artifactId>mall-cloud-common-basic</artifactId>
         </dependency>
     </dependencies>
 </project>

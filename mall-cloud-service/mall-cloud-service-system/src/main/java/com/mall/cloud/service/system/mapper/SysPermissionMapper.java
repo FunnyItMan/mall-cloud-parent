@@ -1,12 +1,10 @@
 package com.mall.cloud.service.system.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.mall.cloud.service.system.domain.SysUser;
+import com.mall.cloud.service.system.domain.SysPermission;
 import org.apache.ibatis.annotations.Mapper;
 
-/**
- * 系统用户mapper
- */
 @Mapper
-public interface SysUserMapper extends BaseMapper<SysUser> {
+
+public interface SysPermissionMapper extends BaseMapper<SysPermission> {
 }

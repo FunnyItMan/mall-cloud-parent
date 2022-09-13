@@ -15,6 +15,7 @@ public class SysUser {
     private Long id;
     private String loginName;
     private String password;
+    private Long roleId;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
 }

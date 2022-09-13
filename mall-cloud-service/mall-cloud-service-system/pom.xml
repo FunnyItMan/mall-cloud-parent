@@ -13,11 +13,6 @@
     <description>核心服务-系统服务</description>
 
     <dependencies>
-        <!--公共模块-->
-        <dependency>
-            <groupId>com.mall.cloud</groupId>
-            <artifactId>mall-cloud-common-basic</artifactId>
-        </dependency>
         <!--数据库模块-->
         <dependency>
             <groupId>com.mall.cloud</groupId>
@@ -37,6 +32,11 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <!--system-entity模块-->
+        <dependency>
+            <groupId>com.mall.cloud</groupId>
+            <artifactId>mall-cloud-entity-system</artifactId>
         </dependency>
     </dependencies>
 </project>
